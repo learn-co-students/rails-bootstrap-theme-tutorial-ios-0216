@@ -35,6 +35,8 @@ Now, we'll copy and paste the Sprockets into our `application.css` file.
 
 ![CSS Sprockets](/images/Screen Shot 2015-08-28 at 11.58.20 AM.png)
 
+The last step is to ensure that all of the theme's CSS files are included locally in the `vendor/assets/stylesheets` folder. In Rival, I copied every file from `Site/assets/css`, as well as `Site/assets/boostrap/css/bootstrap.min.css`, into my `vendor/assets/stylesheets` folder. This will be different for each Bootstrap theme.
+
 ### Javascript Dependencies
 
 We'll want to follow the same process for our Javascript `script` tags. Let's copy them into a new document.
@@ -49,7 +51,7 @@ Like last time, we'll copy and paste the Sprockets into our `application.js` fil
 
 ![JS Sprockets 2](/images/Screen Shot 2015-08-28 at 1.52.27 PM.png)
 
-If we look at the Javascript console, I get an error regarding the Google Maps API script that I skipped over before.
+This time, I copied every file from `Site/assets/js`, as well as `Site/assets/boostrap/js/bootstrap.min.js`, into my `vendor/assets/javascripts` folder. Now, if we look at the Javascript console, I get an error regarding the Google Maps API script that I skipped over before.
 
 ![JS Google Error](/images/Screen Shot 2015-08-28 at 1.54.25 PM.png)
 
