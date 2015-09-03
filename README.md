@@ -69,11 +69,11 @@ Now our kittens have no errors in the Javascript console! What a happy meow-ment
 
 ### Portfolio
 
-Now that all of our dependencies have been required, we can start grabbing components from the Bootstrap theme. If we Inspect Element for the portfolio, we can find the start of the portfolio code. We'll copy the line `<section class="module">`, and our clipboard will contain all of the code between the start and end of the `section` element.
+Now that all of our dependencies have been required, we can start grabbing some claw-some components from the Bootstrap theme. If we Inspect Element for the portfolio, we can find the start of the portfolio code. We'll copy the line `<section class="module">`, and our clipboard will contain all of the code between the start and end of the `section` element.
 
 ![Grab Portfolio](/images/Screen Shot 2015-08-28 at 1.55.35 PM.png)
 
-Let's paste that into a new document. Now, we have to decide which bits of that code we want to integrate into our views, and, more speficially, what needs to be dynamic. We'll want a portfolio item for each of our cat items, so let's copy the list items code.
+Let's paste that into a new document. Now, we have to decide which bits of that code we want to integrate into our Rails views, and, more speficially, what needs to be dynamic. We'll want a portfolio item for each of our cat items, so let's copy the list items code.
 
 ![Portfolio Item](/images/Screen Shot 2015-08-28 at 1.55.54 PM.png)
 
@@ -85,11 +85,11 @@ We know that whenever we have `li` elements, we'll want a `ul` element to wrap t
 
 ![ERB Header](/images/Screen Shot 2015-08-28 at 1.56.24 PM.png)
 
-And we'll close the `ul`, `div`, and `section` tags after our ERB `end`:
+And we'll close the `ul`, `div`, and `section` tags after our ERB `end` – bonus points _fur_ spotting the mis-indentation:
 
 ![ERB Footer](/images/Screen Shot 2015-08-28 at 1.56.53 PM.png)
 
-If we refresh the page now, we'll get a gallery full of broken images. In order to see our adorable cats, we replace the `img` element with our ERB `image_tag`.
+If we refresh the page now, we'll get a gallery full of broken images. How _a-paw-ling_! In order to see our adorable cats, we replace the `img` element with our ERB `image_tag`.
 
 ![ERB Images](/images/Screen Shot 2015-08-28 at 1.57.08 PM.png)
 
@@ -101,7 +101,7 @@ BUT. Our kittens are still named "Corporate Identity". That's not a great name f
 
 ![ERB Names](/images/Screen Shot 2015-08-28 at 1.57.38 PM.png)
 
-Now, we can hover over our kittens in the gallery to get their ID's!
+Now, we can hover over our kittens in the gallery to get their IDs!
 
 ![Cat 1](/images/Screen Shot 2015-08-28 at 1.58.05 PM.png)
 
@@ -127,6 +127,6 @@ Now, if we click on the "Animated" filter, we'll get some cat GIFs!
 
 ![Animated Gallery](/images/Screen Shot 2015-08-28 at 2.00.47 PM.png)
 
-### Hooray!
+### Purr-fect – hooray!
 
 ![Happy Cat](https://media.giphy.com/media/ToCRja2miF3Xi/giphy.gif)
