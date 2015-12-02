@@ -130,3 +130,5 @@ Now, if we click on the "Animated" filter, we'll get some cat GIFs!
 ### Purr-fect – hooray!
 
 ![Happy Cat](https://media.giphy.com/media/ToCRja2miF3Xi/giphy.gif)
+
+<a href='https://learn.co/lessons/rails-bootstrap-theme-tutorial' data-visibility='hidden'>View this lesson on Learn.co</a>
