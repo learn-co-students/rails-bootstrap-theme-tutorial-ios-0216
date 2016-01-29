@@ -131,4 +131,4 @@ Now, if we click on the "Animated" filter, we'll get some cat GIFs!
 
 ![Happy Cat](https://media.giphy.com/media/ToCRja2miF3Xi/giphy.gif)
 
-<a href='https://learn.co/lessons/rails-bootstrap-theme-tutorial' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/rails-bootstrap-theme-tutorial' title='Using Bootstrap Themes to Style Your Rails App'>Using Bootstrap Themes to Style Your Rails App</a> on Learn.co and start learning to code for free.</p>
